@@ -1,0 +1,332 @@
+.homeBox {
+    background: #000066;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 105px;
+}
+
+.header1 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.header1 h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23.34px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-top: 45px;
+}
+
+.header2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-right: 40px;
+}
+
+.header2 img {
+    margin-right: 20px;
+    margin-top: 45px;
+}
+
+.homeBox hr {
+    margin-left: 120px;
+    margin-right: 50px;
+}
+
+.homeGrid {
+    display: grid;
+    grid-template-columns: 20fr 80fr;
+}
+
+.homeGrid1 {
+    background: #000066;
+    padding-top: 85px;
+    padding-left: 15px;
+}
+
+.homeGrid2 {
+    background: #000066;
+    padding-top: 60px;
+    overflow-y: scroll;
+    height: 500px;
+    display: grid;
+    padding-left: 5px;
+}
+
+.contentBox {
+    display: grid;
+}
+
+.contentText{
+    display: flex;
+}
+
+.contentText h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15.34px;
+    line-height: 23px;
+    color: #950000;
+    margin-top: 75px;
+    margin-bottom: 42px;
+}
+
+.contentText h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.34px;
+    line-height: 23px;
+    color: white;
+    margin-top: 75px;
+    margin-bottom: 42px;
+    margin-left: 5px;
+}
+
+.galleryBox {
+    display: grid;
+    grid-template-columns: 25fr 25fr 25fr 25fr;
+}
+
+.galleryCard {
+    margin-bottom: 132px;
+    margin-left: 5px;
+}
+
+.gallery {
+    border: 1px solid white;
+    border-radius: 16.3366px;
+    background: linear-gradient(269.74deg, rgba(255, 255, 255, 0.21) -254.09%, rgba(255, 255, 255, 0) 99.84%);
+    width: 151px;
+    height: 151px;
+}
+
+.gallery img {
+    width: 80px;
+    height: 80px;
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
+.gallery h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 9.48px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.galleryFile input {
+    width: 102px;
+    height: 24px;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    margin-top: 15px;
+    width: 90px;
+    margin-left: 28px;
+    padding-left: 3px;
+    padding-top: 3px;
+}
+
+.submitBtn {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.submitBtn button {
+    background: linear-gradient(90deg, #F9D423 0%, #E65C00 100%);
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+    width: 234px;
+    height: 54px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.submitBtn button:hover {
+    border: 3px solid blue;
+}
+
+.tabBar .MuiTab-wrapper {
+    color: white;
+}
+
+.tabBar .PrivateTabIndicator-colorSecondary-7 {
+    background-color: white;
+}
+
+.kycText h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12.48px;
+    line-height: 19px;
+    color: #ECE9E6;
+    width: 300px;
+    margin-top: 6px;
+}
+
+.dropDown {
+    margin-top: 0px;
+    padding-top: 15px;
+    border-radius: 16px;
+    margin-left: 10px;
+    height: 45px;
+}
+
+.dropDown select {
+    width: 180px;
+    background: #000066;
+    color: #FFFFFF;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+}
+
+.dropDown:hover {
+    border: 1px solid white;
+    width: 180px;
+    height: 40px;
+    border-radius: 16px;
+}
+
+.dropHead {
+    margin-top: 45px;
+    border-radius: 16px;
+    height: 20px;
+    margin-right: 60px;
+    padding-bottom: 5px;
+}
+
+.dropHead select {
+    width: fit-content;
+    background: #000066;
+    color: #FFFFFF;
+    padding-left: 4px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 16px;
+    padding-top: 5px;
+}
+
+.dropHead:hover {
+    margin-top: 43px;
+    border-radius: 16px;
+    height: 20px;
+    border: 2px solid white;
+    margin-right: 60px;
+    padding-bottom: 5px;
+}
+
+.memberText h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-weight: 300;
+    line-height: 40px;
+    color: #ECE9E6;
+    margin-left: 72px;
+    margin-top: 65px;
+}
+
+.memberBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.memberBtn button {
+    background: linear-gradient(270deg, hsla(0, 0%, 100%, 0.21) 0%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+    width: 233px;
+    height: 51px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.48px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.memberBtn button:hover{
+    border: 3px solid blue;
+}
+
+.btn1 {
+    margin-right: 76px;
+}
+
+.memberCard {
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.21) 0%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid #FFFFFF;
+    border-radius: 16.3366px;
+    width: 520px;
+    height: 125px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.memberCard h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26.48px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+}
+
+.payBtn {
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.payBtn button {
+    background: linear-gradient(90deg, #F9D423 0%, #E65C00 100%);
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+    width: 234px;
+    height: 54px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.payBtn button:hover {
+    border: 3px solid blue;
+}
+
+.membershipText h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12.48px;
+    line-height: 19px;
+    color: #ECE9E6;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 60px;
+    margin-top: 5px;
+}
